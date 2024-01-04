@@ -101,7 +101,7 @@ describe('Testes E2E para o Projeto Carro', () => {
 
     });
 
-    context('Testes para mobile', () => {
+    context('Testes para mobile', () => { //Testes para mobile
 
         beforeEach(() => {
 
