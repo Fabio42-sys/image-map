@@ -95,7 +95,6 @@ describe('Testes E2E para o Projeto Carro', () => {
             cy.get('[data-test="divCard"]').then(quantidade => {
 
                 cy.get('[data-test="imgSobreposicao"]').should('have.length', quantidade.length);
-
             });
 
         });
